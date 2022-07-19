@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ebeb99b0-5e96-4dd5-a77e-703aaa49f990" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Employees.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Orders.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1657879557052" duration="6288000" />
       <workItem from="1658124535292" duration="1338000" />
       <workItem from="1658130768228" duration="11002000" />
-      <workItem from="1658216142040" duration="14511000" />
+      <workItem from="1658216142040" duration="16717000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1658220205667</created>
@@ -66,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658220205667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create charts components">
+      <created>1658234313457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658234313457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev" />
+    <MESSAGE value="create charts components" />
+    <option name="LAST_COMMIT_MESSAGE" value="create charts components" />
   </component>
 </project>
