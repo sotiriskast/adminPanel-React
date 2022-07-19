@@ -8,14 +8,19 @@ const initialState = {
     userProfile: false,
     notification: false,
 }
-export const ContextProvider=({children})=>{
+export const ContextProvider = ({children}) => {
     const [activeMenu, setActiveMenu] = useState(true);
+    const [isClicked, setIsClicked] = useState(initialState);
 
+    const handleClick = (clicked) => {
+        setIsClicked({...clicked, [clicked]: true})
+    }
+    const [screeSize, setScreeSize] = useState(undefined);
     return (
         <StateContext.Provider
-            value={{activeMenu,setActiveMenu}}>
+            value={{activeMenu, setActiveMenu,screeSize, setScreeSize, isClicked, setIsClicked,handleClick,}}>
             {children}
         </StateContext.Provider>
     )
 }
-export const useStateContent=()=> useContext(StateContext);
+export const useStateContent = () => useContext(StateContext);
