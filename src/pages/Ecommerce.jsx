@@ -28,8 +28,8 @@ const Ecommerce = () => {
                 </div>
                 <div className={"flex m-3 flex-wrap justify-center gap-1 items-center"}>
                     {earningData.map((item) => (
-                        <div
-                            className={"bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl"}>
+                        <div key={item.title}
+                             className={"bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl"}>
                             <button type={"button"} style={{color: item.iconColor, backgroundColor: item.iconBg}}
                                     className={"text-2xl opacity-0.9 rounded-full p-4 hover:drop-shadow-xl"}>
                                 {item.icon}
@@ -68,31 +68,40 @@ const Ecommerce = () => {
                     <div className={"mt-10 flex gap-10 flex-wrap justify-center"}>
                         <div className={"border-r-1 border-color m-4 pr-10"}>
                             <div><p>
-                                <span className={"text-3xl  font-semibold"} >$93.438</span>
-                                <span className={"p-1.5 hover:drop-shadow-xl cursor-pointer rounder-full text-white bg-green-400"}>23%</span>
+                                <span className={"text-3xl  font-semibold"}>$93.438</span>
+                                <span
+                                    className={"p-1.5 hover:drop-shadow-xl cursor-pointer rounder-full text-white bg-green-400"}>23%</span>
                             </p></div>
                             <div className={"mt-8"}><p>
-                                <span className={"text-3xl  font-semibold"} >$93.438</span>
+                                <span className={"text-3xl  font-semibold"}>$93.438</span>
                                 <span className={"text-gray-500 mt-1"}>Expenses</span>
                             </p></div>
                             <div className={"mt-5"}>
                                 <SparkLine
                                     currentColor={"blue"}
-                                    id={"line-sparkline"}
+                                    id={"lineSparkline"}
                                     type={"Line"}
-                                    height={"250px"}
+                                    height={"80px"}
                                     width={"250px"}
                                     data={SparklineAreaData}
                                     color={"blue"}
-
                                 />
                             </div>
+                            <div className={"mt-10"}>
+                                <Button color={"white"}
+                                        bgColor={"blue"}
+                                        text={"Download Report"}
+                                        borderRadius={"10px"}/>
+
+                            </div>
+                        </div>
+                        <div>
+                            <Stacked width={"320px"} height={"320px"}/>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     )
 }
 

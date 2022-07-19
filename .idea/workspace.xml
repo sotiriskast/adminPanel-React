@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ebeb99b0-5e96-4dd5-a77e-703aaa49f990" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/SparkLine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/ContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/ContextProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/Stacked.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,22 +57,23 @@
       <workItem from="1657879557052" duration="6288000" />
       <workItem from="1658124535292" duration="1338000" />
       <workItem from="1658130768228" duration="11002000" />
-      <workItem from="1658216142040" duration="4000000" />
+      <workItem from="1658216142040" duration="14511000" />
     </task>
+    <task id="LOCAL-00001" summary="dev">
+      <created>1658220205667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658220205667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev" />
   </component>
 </project>
