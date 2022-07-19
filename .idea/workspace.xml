@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebeb99b0-5e96-4dd5-a77e-703aaa49f990" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Employees.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Orders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Customers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Customers.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <workItem from="1657879557052" duration="6288000" />
       <workItem from="1658124535292" duration="1338000" />
       <workItem from="1658130768228" duration="11002000" />
-      <workItem from="1658216142040" duration="16717000" />
+      <workItem from="1658216142040" duration="17178000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1658220205667</created>
@@ -72,15 +69,25 @@
       <option name="project" value="LOCAL" />
       <updated>1658234313457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create employee page">
+      <created>1658236649309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658236649309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="dev" />
     <MESSAGE value="create charts components" />
-    <option name="LAST_COMMIT_MESSAGE" value="create charts components" />
+    <MESSAGE value="create employee page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create employee page" />
   </component>
 </project>
