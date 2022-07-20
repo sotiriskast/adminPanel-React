@@ -1,11 +1,12 @@
 import React from 'react'
-import {BsCurrencyDollar} from "react-icons/bs";
+// import {BsCurrencyDollar} from "react-icons/bs";
 import {GoPrimitiveDot} from "react-icons/go";
-import {Stacked, Pie, Button, SparkLine} from "../components";
+import {Stacked,  Button, SparkLine} from "../components";
 import {useStateContent} from "../contexts/ContextProvider";
 import {earningData, SparklineAreaData} from "../data/dummy";
 
 const Ecommerce = () => {
+    const {currentColor} = useStateContent();
     return (
         <div className={"mt-12"}>
             <div className={"flex flex-wrap lg:flex-nowrap justify-center"}>
@@ -20,7 +21,7 @@ const Ecommerce = () => {
                     <div className={"mt-6"}>
                         <Button
                             color={"white"}
-                            bgColor={"blue"}
+                            bgColor={currentColor}
                             text={"Download"}
                             borderRadius={"10px"}
                         />
@@ -78,18 +79,18 @@ const Ecommerce = () => {
                             </p></div>
                             <div className={"mt-5"}>
                                 <SparkLine
-                                    currentColor={"blue"}
+                                    currentColor={currentColor}
                                     id={"lineSparkline"}
                                     type={"Line"}
                                     height={"80px"}
                                     width={"250px"}
                                     data={SparklineAreaData}
-                                    color={"blue"}
+                                    color={currentColor}
                                 />
                             </div>
                             <div className={"mt-10"}>
                                 <Button color={"white"}
-                                        bgColor={"blue"}
+                                        bgColor={currentColor}
                                         text={"Download Report"}
                                         borderRadius={"10px"}/>
 

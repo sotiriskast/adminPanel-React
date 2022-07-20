@@ -8,7 +8,7 @@ import {useStateContent} from "../contexts/ContextProvider";
 
 
 const Sidebar = () => {
-    const {activeMenu, setActiveMenu, screenSize} = useStateContent()
+    const {activeMenu, setActiveMenu, screenSize, currentColor} = useStateContent()
     const handleCloseSideBar = () => {
         if (activeMenu && screenSize <= 900) {
             setActiveMenu(false)
@@ -43,8 +43,10 @@ const Sidebar = () => {
                                     <NavLink to={`/${link.name}`}
                                              key={link.name}
                                              onClick={() => handleCloseSideBar}
-                                             className={({isActive}) =>
-                                                 isActive ? activeLink : normalLink}
+                                             style={({isActive}) => ({
+                                                 backgroundColor: isActive ? currentColor : ''
+                                             })}
+                                             className={({isActive}) => isActive ? activeLink : normalLink}
                                     >
                                         {link.icon}
                                         <span className={"capitalize"}>

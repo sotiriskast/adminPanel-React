@@ -1,8 +1,8 @@
-import React, {useEffect} from "react";
+import React from "react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {FiSettings} from 'react-icons/fi';
 import {TooltipComponent} from "@syncfusion/ej2-react-popups";
-import {Navbar, Footer, Sidebar, ThemeSettings} from "./components";
+import {Navbar, Sidebar, ThemeSettings} from "./components";
 import {
     Ecommerce,
     Orders,
@@ -26,11 +26,25 @@ import {useStateContent} from "./contexts/ContextProvider";
 import './App.css'
 
 const App = () => {
-    const {activeMenu, setActiveMenu} = useStateContent()
+    const {activeMenu, themeSettings, setThemeSettings, currentColor, currentMode} = useStateContent()
     return (
-        <div>
+        <div className={currentMode === "Dark" ? 'dark' : ''}>
             <BrowserRouter>
                 <div className="flex relative dark:bg-main-bg">
+                    <div className={"fixed right-4 bottom-4"} style={{zIndex: '1000'}}>
+                        <TooltipComponent content={"Settings"} position={"Top"}>
+                            <button type={"button"}
+                                    className={"text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"}
+                                    onClick={() => setThemeSettings(true)}
+                                    style={{background: currentColor, borderRadius: '50%'}}
+                            >
+                                <FiSettings/>
+                            </button>
+
+                        </TooltipComponent>
+                    </div>
+
+
                     {activeMenu ? (
                         <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white">
                             <Sidebar/>
@@ -46,6 +60,7 @@ const App = () => {
                             <Navbar/>
 
                             <div>
+                                {themeSettings && <ThemeSettings/>}
                                 <Routes>
                                     {/*Dashboard*/}
                                     <Route path={'/'} element={<Ecommerce/>}/>

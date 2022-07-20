@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ebeb99b0-5e96-4dd5-a77e-703aaa49f990" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Charts/LineChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/LineChart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThemeSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSettings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/ContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/ContextProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Charts/Line.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Charts/Line.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ColorPicker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ColorPicker.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ecommerce.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Editor.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +65,7 @@
       <workItem from="1658124535292" duration="1338000" />
       <workItem from="1658130768228" duration="11002000" />
       <workItem from="1658216142040" duration="19222000" />
-      <workItem from="1658297176448" duration="1036000" />
+      <workItem from="1658297176448" duration="12279000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1658220205667</created>
@@ -99,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658238514684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create editor page">
+      <created>1658304160634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658304160634</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +131,7 @@
     <MESSAGE value="create customer page" />
     <MESSAGE value="create calendar page" />
     <MESSAGE value="create kanban page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create kanban page" />
+    <MESSAGE value="create editor page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create editor page" />
   </component>
 </project>
