@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebeb99b0-5e96-4dd5-a77e-703aaa49f990" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/dummy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Calendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Kanban.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Kanban.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Editor.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,8 @@
       <workItem from="1657879557052" duration="6288000" />
       <workItem from="1658124535292" duration="1338000" />
       <workItem from="1658130768228" duration="11002000" />
-      <workItem from="1658216142040" duration="18739000" />
+      <workItem from="1658216142040" duration="19222000" />
+      <workItem from="1658297176448" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1658220205667</created>
@@ -86,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658237003712</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create calendar page">
+      <created>1658238498847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658238498847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create kanban page">
+      <created>1658238514684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658238514684</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +112,8 @@
     <MESSAGE value="create charts components" />
     <MESSAGE value="create employee page" />
     <MESSAGE value="create customer page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create customer page" />
+    <MESSAGE value="create calendar page" />
+    <MESSAGE value="create kanban page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create kanban page" />
   </component>
 </project>
