@@ -34,9 +34,7 @@ const Area = () => {
                     background={currentMode === 'Dark' ? '#33373E' : '#fff'}
                 >
                     <Inject services={[SplineAreaSeries, DateTime, Legend, Tooltip]}/>
-                    <SeriesCollectionDirective
-
-                    >
+                    <SeriesCollectionDirective>
                         {areaCustomSeries.map((item, index) => <SeriesDirective key={index} {...item}/>)}
                     </SeriesCollectionDirective>
                 </ChartComponent>
